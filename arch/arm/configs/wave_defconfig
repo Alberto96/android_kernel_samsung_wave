@@ -1195,7 +1195,7 @@ CONFIG_IFB=y
 # CONFIG_BONDING is not set
 # CONFIG_MACVLAN is not set
 # CONFIG_EQUALIZER is not set
-CONFIG_TUN=m
+CONFIG_TUN=y
 # CONFIG_VETH is not set
 # CONFIG_MII is not set
 # CONFIG_PHYLIB is not set
@@ -1208,7 +1208,7 @@ CONFIG_WLAN=y
 # CONFIG_USB_NET_RNDIS_WLAN is not set
 # CONFIG_ATH_COMMON is not set
 # CONFIG_BCM4329 is not set
-CONFIG_BCMDHD=m
+CONFIG_BCMDHD=y
 CONFIG_BCMDHD_FW_PATH="/vendor/firmware/fw_bcmdhd.bin"
 CONFIG_BCMDHD_NVRAM_PATH="/vendor/firmware/nvram_net.txt"
 # CONFIG_DHD_USE_STATIC_BUF is not set
