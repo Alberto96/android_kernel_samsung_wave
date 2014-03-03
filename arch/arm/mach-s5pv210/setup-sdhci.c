@@ -71,7 +71,7 @@ void s5pv210_setup_sdhci_cfg_card(struct platform_device *dev,
 		  S3C_SDHCI_CTRL2_DFCNT_NONE |
 		  S3C_SDHCI_CTRL2_ENCLKOUTHOLD);
 
-	if (ios->clock <= (400 * 1000)) {
+	if (ios->clock <= (500 * 1000)) {
 		ctrl2 &= ~(S3C_SDHCI_CTRL2_ENFBCLKTX |
 			   S3C_SDHCI_CTRL2_ENFBCLKRX);
 		ctrl3 = 0;
