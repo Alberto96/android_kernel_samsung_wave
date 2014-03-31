@@ -671,8 +671,8 @@ static struct regulator_init_data wave_ldo16_data = {
 static struct regulator_init_data wave_ldo17_data = {
 	.constraints	= {
 		.name		= "VCC_3.0V_LCD",
-		.min_uV		= 2800000,
-		.max_uV		= 3200000,
+		.min_uV		= 3000000,
+		.max_uV		= 3000000,
 		/* service manuals of S8500 & S8530 mark it as 3.2V but there are known configs of 3.0 and 2.8 */
 		.apply_uV	= 1,
 		.always_on	= 0,
