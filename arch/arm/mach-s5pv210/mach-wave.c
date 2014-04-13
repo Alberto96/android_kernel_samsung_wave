@@ -257,7 +257,7 @@ static struct s3cfb_lcd lg4573 = {
 	.p_width 	= 52,	//  width of lcd in mm
 	.p_height 	= 86,	//  height of lcd in mm
 	.bpp 		= 24,   //
-	.freq 		= 68,	//
+	.freq 		= 72,	//
 	.timing = {
 
 		.h_fp 	= 17,
@@ -285,7 +285,7 @@ static struct s3cfb_lcd s6e63m0 = {
 	.p_width = 52,
 	.p_height = 86,
 	.bpp = 24,
-	.freq = 68,
+	.freq = 72,
 
 	.timing = {
 		.h_fp = 16,
@@ -671,7 +671,7 @@ static struct regulator_init_data wave_ldo16_data = {
 static struct regulator_init_data wave_ldo17_data = {
 	.constraints	= {
 		.name		= "VCC_3.0V_LCD",
-		.min_uV		= 3200000,
+		.min_uV		= 2800000,
 		.max_uV		= 3200000,
 		/* service manuals of S8500 & S8530 mark it as 3.2V but there are known configs of 3.0 and 2.8 */
 		.apply_uV	= 1,
